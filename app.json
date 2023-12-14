@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/shoplist/shoplist"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "Local Life",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "Home",
+      "iconPath": "/images/home.png",
+      "selectedIconPath": "/images/home-active.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "Message",
+      "iconPath": "/images/cate.png",
+      "selectedIconPath": "/images/cate-active.png"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "Contact",
+      "iconPath": "/images/my.png",
+      "selectedIconPath": "/images/my-active.png"
+    }]
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots="true" circular="true">
+  <swiper-item wx:for="{{swiperList}}" wx:key="id">
+    <image src="{{item.image}}"/>
+  </swiper-item>
+</swiper>
+
+<!-- 九宫格区域-->
+<view class="grid-list">
+  <navigator class="grid-item" wx:for="{{gridList}}" wx:key="id" url="/pages/shoplist/shoplist?id={{item.id}}&title={{item.name}}"><image src="{{item.icon}}"></image>
+<text>{{item.name}}</text>
+</navigator>
+</view>
