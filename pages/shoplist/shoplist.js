@@ -12,7 +12,7 @@ Page({
     total:0,
     isLoading:false
   },
-getShopList(){
+getShopList(cb){
   this.setData({
     isLoading:true
   })
@@ -34,7 +34,7 @@ getShopList(){
     },
     complete() {
       wx.hideLoading()
-     
+      cb && cb()
     }
   })
 },
@@ -82,7 +82,15 @@ getShopList(){
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh() {
-
+    this.setData({
+      page:1,
+      shopList:[],
+      total:0
+    })
+    this.getShopList( () =>{
+      wx.stopPullDownRefresh()
+    })
+    //wx.stopPullDownRefresh()
   },
 
   /**

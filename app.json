@@ -31,6 +31,9 @@
     }]
   },
   "style": "v2",
+  "usingComponents": {
+    "my-test1":"/components/test/test"
+  },
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,
