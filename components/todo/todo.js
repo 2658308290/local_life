@@ -1,4 +1,4 @@
-// components/test/test.js
+// components/todo/todo.js
 Component({
 
   /**

@@ -1,0 +1,4 @@
+/* components/todo/todo.wxss */
+.todoMain{
+  background-color: rgb(29, 140, 184);
+}

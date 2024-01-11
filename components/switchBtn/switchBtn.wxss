@@ -1,0 +1,4 @@
+/* components/switchBtn/switchBtn.wxss */
+text{
+  background-color: red;
+}
