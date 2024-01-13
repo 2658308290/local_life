@@ -1,4 +1,41 @@
 /* components/todo/todo.wxss */
 .todoMain{
-  background-color: rgb(29, 140, 184);
+  background-color: rgb(245, 244, 234);
+  height: 50vh;
+  width: 75vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 80rpx 80rpx 30rpx 30rpx;
+  box-shadow: 0 0 50rpx rgb(226, 179, 118) inset;
+}
+.itemBox{
+  display: flex;
+  flex-direction: column;
+
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8rpx 0rpx;
+}
+.datebox{
+  position: relative;
+  left: -13rpx;
+  width: 50%;
+  font-size: 14px;
+  background-color: rgb(230, 186, 120);
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 64rpx;
+  box-shadow: 0rpx 5rpx 8rpx rgb(155, 147, 147);
+  border-radius: 8rpx;
+}
+.itemCheckbox{
+  margin-left: 18rpx;
+}
+.text{
+  margin-left: 4rpx;
+  color: rgb(105, 99, 99);
 }

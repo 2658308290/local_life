@@ -1,2 +1,12 @@
 <!--components/todo/todo.wxml-->
-<view class="todoMain">todopage</view>
+<view class="todoMain">
+<view class="datebox">
+2024/01/11 周四
+</view>
+<view class="itemBox">
+     <view wx:for="{{list}}" wx:for-item="item" wx:key="index" class="item">
+                  <checkbox class="itemCheckbox" value="" checked="{{item.checked}}"/>
+               <view class="text">{{item.content}}</view>
+     </view>
+</view>
+</view>

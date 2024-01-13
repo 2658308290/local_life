@@ -1,0 +1,6 @@
+<view class="navBarBox" style="height: {{height}}px">
+
+<view class="title">Weekly To Do</view>
+
+
+</view>
