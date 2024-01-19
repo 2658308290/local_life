@@ -35,7 +35,8 @@
   "usingComponents": {
     "switchBtn": "/components/switchBtn/switchBtn",
     "todo":"/components/todo/todo",
-    "navBar":"/components/navBar/navBar"
+    "navBar":"/components/navBar/navBar",
+    "editContent":"/components/editContent/editContent"
   },
   "rendererOptions": {
     "skyline": {

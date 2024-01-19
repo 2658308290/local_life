@@ -1,0 +1,12 @@
+<!--components/editContent/editContent.wxml-->
+<view class="editContent">
+<view class="cancel_del_box">
+  <view class="cancel">取消</view>
+  <view class="del">删除</view>
+</view>
+
+<view class="edit_check_box">
+<input class="inputbox" type="text" value="you can do it"/>
+<view class="check">√</view>
+</view>
+</view>

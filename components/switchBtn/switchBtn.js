@@ -12,13 +12,18 @@ Component({
    * 组件的初始数据
    */
   data: {
-        today:true
+        today:'today'
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-
+    change_today(item){
+      console.log(item.currentTarget.dataset.today);
+      this.setData({
+        today:item.currentTarget.dataset.today
+      })
+    }
   }
 })

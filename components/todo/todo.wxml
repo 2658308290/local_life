@@ -6,7 +6,7 @@
 <view class="itemBox">
      <view wx:for="{{list}}" wx:for-item="item" wx:key="index" class="item">
                   <checkbox class="itemCheckbox" value="" checked="{{item.checked}}"/>
-               <view class="text">{{item.content}}</view>
+               <view bind:tap="change_content" class="text">{{item.content}}</view>
      </view>
 </view>
 </view>
