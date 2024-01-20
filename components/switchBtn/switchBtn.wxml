@@ -1,5 +1,5 @@
 <!--components/switchBtn/switchBtn.wxml-->
 <view class="switchBtn">
-  <button bind:tap="click" class="todayBtn {{today == true ? 'btn_isactive' : ''}}" style="width: 20vw; margin-right: 8rpx;">Today</button>
-  <button class="weekBtn" style="width: 20vw;">Week</button>
+  <button bind:tap="click_btn" class="todayBtn {{today == true ? 'btn_isactive' : ''}}" style="width: 20vw; margin-right: 8rpx;">Today</button>
+  <button class="weekBtn" style="width: 20vw;" class="todayBtn {{today == false ? 'btn_isactive' : ''}}">Week</button>
 </view>
