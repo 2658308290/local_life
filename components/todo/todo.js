@@ -19,6 +19,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    change_content(){
+      console.log('唤醒编辑框');
+    }
   }
 })

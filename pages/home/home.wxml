@@ -3,7 +3,7 @@
 <view class="container">
  <switchBtn></switchBtn>
  <todo class="todo"></todo>
+ <editContent></editContent>
 </view>
-
 </view>
 
